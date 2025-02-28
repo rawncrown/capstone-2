@@ -1,0 +1,26 @@
+.hero-container{
+    /* background: url(./images/billy-huynh-W8KTS-mhFUE-unsplash.jpg) center center; */
+    padding: 50px;
+    /* background-size: cover; */
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+.hero-container::before{
+    content: url(./images/billy-huynh-W8KTS-mhFUE-unsplash.jpg);
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    opacity: .3;
+    z-index: -1;
+}
+.hero-caption h1{
+    color: #fff;
+}
+.hero-img img{
+    border-radius: 50%;
+}
+.resume-row-wrapper{
+    gap: 10px;
+}
